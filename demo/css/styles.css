@@ -1,0 +1,84 @@
+body {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  margin: 5px;
+}
+.buttons,
+.buttons1 {
+  position: absolute;
+}
+
+.slider-main,
+.slider-main1 {
+  width: 500px;
+  border: 5px solid black;
+}
+
+.slide {
+  height: 300px;
+  padding: 0;
+  margin: 0;
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  opacity: 1;
+  background: #a4fc03;
+}
+
+.swiper-pagination {
+  position: absolute;
+  top: 90%;
+  left: 37%;
+  text-align: center;
+}
+
+.swiper-pagination-bullet {
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+  border-radius: 100%;
+  background: #000;
+  opacity: 0.2;
+  cursor: pointer;
+  margin: 0 4px;
+}
+
+.slide:nth-child(1) {
+  background-color: orange;
+}
+.slide:nth-child(2) {
+  background-color: red;
+}
+.slide:nth-child(3) {
+  background-color: blue;
+}
+.slide:nth-child(4) {
+  background-color: green;
+}
+.slide:nth-child(5) {
+  background-color: yellow;
+}
+
+.slide:nth-child(6) {
+  background-color: blue;
+}
+.slide:nth-child(7) {
+  background-color: green;
+}
+.slide:nth-child(8) {
+  background-color: yellow;
+}
+
+.slide:nth-child(9) {
+  background-color: blue;
+}
+.slide:nth-child(10) {
+  background-color: green;
+}
+.slide:nth-child(11) {
+  background-color: yellow;
+}

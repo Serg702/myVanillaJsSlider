@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My Slider</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../src/css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body>
+
+    <div class="slider-main">
+        <div class="slider-container">
+            <div class="slide">Slide 13</div>
+            <div class="slide">Slide 12</div>
+            <div class="slide">Slide 11</div>
+            <div class="slide">Slide 10</div>
+            <div class="slide">Slide 1</div>
+            <div class="slide">Slide 13</div>
+            <div class="slide">Slide 12</div>
+            <div class="slide">Slide 11</div>
+            <div class="slide">Slide 10</div>
+            <div class="slide">Slide 1</div>
+
+
+        </div>
+        <div class="buttons">
+            <div><button class="prev">Prev</button></div>
+            <div><button class="next">Next</button></div>
+        </div>
+    </div>
+    <script src="../src/scripts/slider.js"></script>
+    <script>
+        const mySlider = new Slider(".slider-container", {
+            nav: {
+                prev: ".prev",
+                next: ".next",
+                active: true
+            },
+            bullets: {
+                active: true
+            },
+            auto: {
+                active: true,
+                delay: 3000
+            },
+            speed: 600,
+            show: 1
+        });
+    </script>
+</body>
+
+</html>

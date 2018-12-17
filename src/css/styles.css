@@ -1,0 +1,14 @@
+.slider-main {
+  text-align: center;
+  display: flex;
+  overflow: hidden;
+  transition-duration: 0ms;
+  transform: translate3d(0px, 0px, 0px);
+}
+
+.slider-container {
+  text-align: center;
+  display: flex;
+  transition-duration: 0ms;
+  transform: translate3d(0px, 0px, 0px);
+}
